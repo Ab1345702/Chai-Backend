@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "Javascript",
     "Nodejs"
   ],
+  "type": "module",
   "author": "Abhishek Bisht",
   "license": "ISC",
-  "description": "This is a videoSeries on backend with javascript"
+  "description": "This is a videoSeries on backend with javascript",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
